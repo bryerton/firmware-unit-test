@@ -24,3 +24,4 @@ make test
 ## Viewing coverage report
 
 The coverage reports are placed in the `report` directory, the top level can be found at `report/coverage.html`
+ 

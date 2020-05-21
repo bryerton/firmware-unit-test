@@ -1,0 +1,22 @@
+dist: bionic
+sudo: required
+language:
+  - cpp
+compiler:
+  - gcc
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - gcc
+      - g++
+      - cmake
+      - gcovr
+script:
+  # Run your build commands next
+  cd build
+  cmake ..
+  make all
+  make test
+  ../run_gcovr.sh
