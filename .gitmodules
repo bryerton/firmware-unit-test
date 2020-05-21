@@ -1,0 +1,9 @@
+[submodule "src/drivers"]
+	path = src/drivers
+	url = git@github.com:MechanicalVentilatorMilano/drivers.git
+[submodule "thirdparty/Catch2"]
+	path = thirdparty/Catch2
+	url = https://github.com/catchorg/Catch2.git
+[submodule "thirdparty/trompeloeil"]
+	path = thirdparty/trompeloeil
+	url = https://github.com/rollbear/trompeloeil.git
